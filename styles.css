@@ -122,7 +122,7 @@ h2{
   font-family: 'Titillium Web', sans-serif;
   color:#bf1363;
   text-shadow: #9ddfd3;
-  font-size:5rem;
+  font-size:2.5rem;
 }
 
 p {
@@ -137,8 +137,8 @@ font-family: 'Titillium Web', sans-serif;
 color:#deeeea;
 border:0;
 height:3rem;
-width:10rem;
-font-size:1.5rem;
+width:12rem;
+font-size:1.3rem;
 border-radius: 20px;
 }
 
@@ -147,9 +147,9 @@ button:hover{
   font-family: 'Titillium Web', sans-serif;
   color:#deeeea;
   border:0;
-  height:3rem;
-  width:10rem;
-  font-size:1.5rem;
+  height:10rem;
+  width:12rem;
+  font-size:1.3rem;
   border-radius: 20px;
   }
 }
