@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Deciding Dice</title>
+  <!--Google FONTS-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap" rel="stylesheet">
+
+  <!--CSS FILE-->
+  <link rel="stylesheet" href="styles.css">
+
+<script type="text/javascript" src="images/dicee.js" charset="utf-8"></script>
+
+</head>
+
+<body onload="getName()">
+
+  <div class="container">
+    <h1>Deciding Dice</h1>
+    <h2>Never have to argue again!</h2>
+    <button id="btn" onclick="javascript:Generator()">Click to Generate</button><br />
+    <div class="dice1">
+      <p>Player 1</p>
+      <div id="holder1" class="dice-container">
+        <div  class="dot-holder">
+        </div>
+      </div>
+    </div>
+
+    <div class="dice2">
+      <p>Player 2</p>
+      <div id="holder2" class="dice-container">
+        <div class="dot-holder">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<footer>
+</footer>
+
+</html>

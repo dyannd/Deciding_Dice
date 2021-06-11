@@ -1,0 +1,154 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+/**DICE**/
+.dice1,.dice2 {
+  text-align: center;
+  display: inline-block;
+  padding: 0 5%;
+
+}
+
+.dice-container{
+  width:10rem;
+  height:10rem;
+  background-color: #39a6a3;
+  border-radius: 20px;
+  padding:2rem 2rem;
+}
+
+/**DICE GENERATING CLASSES**/
+
+.zdot-one{
+  width:10rem;
+  height:10rem;
+  background:
+
+    radial-gradient(farthest-side,#bf1363 90%, transparent)center/3rem 3rem;
+    /* the circle                                          position / size */
+  background-repeat:no-repeat;
+  border:0;
+}
+
+.zdot-two{
+  width:10rem;
+  height:10rem;
+  background:
+
+    radial-gradient(farthest-side,#bf1363 90%, transparent)top left/3rem 3rem,
+
+    radial-gradient(farthest-side,#bf1363 90% , transparent) bottom right/3rem 3rem;
+    /* the circle                                          position / size */
+  background-repeat:no-repeat;
+  border:0;
+}
+
+.zdot-three{
+  width:10rem;
+  height:10rem;
+  background:
+
+    radial-gradient(farthest-side,#bf1363 90%, transparent)top left/3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) center/3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) bottom right/3rem 3rem;
+    /* the circle                                          position / size */
+  background-repeat:no-repeat;
+  border:0;
+}
+
+.zdot-four{
+  width:10rem;
+  height:10rem;
+  background:
+
+    radial-gradient(farthest-side,#bf1363 90%, transparent) top left/3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) top right/3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) bottom right/3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) bottom left/3rem 3rem;
+    /* the circle                                          position / size */
+  background-repeat:no-repeat;
+  border:0;
+}
+
+.zdot-five{
+  width:10rem;
+  height:10rem;
+  background:
+
+    radial-gradient(farthest-side,#bf1363 90%, transparent)top left/3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) top right/3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) bottom right/3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) bottom left /3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) center /3rem 3rem;
+    /* the circle                                          position / size */
+  background-repeat:no-repeat;
+  border:0;
+}
+
+.zdot-six{
+  width:10rem;
+  height:10rem;
+  background:
+
+    radial-gradient(farthest-side,#bf1363 90%, transparent)top left/3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) top right/3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) bottom right/3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) left center /3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) right center /3rem 3rem,
+    radial-gradient(farthest-side,#bf1363 90% , transparent) bottom left/3rem 3rem;
+    /* the circle                                          position / size */
+  background-repeat:no-repeat;
+  border:0;
+}
+
+body {
+  background-color: #deeeea;
+  text-align: center;
+}
+
+/**HEADINGS**/
+h1 {
+  margin: 30px;
+  font-family: 'Titillium Web', sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color:#231e23;
+}
+
+h2{
+  font-family: 'Titillium Web', sans-serif;
+  color:#bf1363;
+  text-shadow: #9ddfd3;
+}
+
+p {
+  font-size: 2rem;
+  color: #bf1363;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+button {
+background-color: #39a6a3;
+font-family: 'Titillium Web', sans-serif;
+color:#deeeea;
+border:0;
+height:4rem;
+width:7rem;
+font-size:1rem;
+border-radius: 20px;
+}
+
+button:hover{
+  background-color: #231e23;
+  font-family: 'Titillium Web', sans-serif;
+  color:#deeeea;
+  border:0;
+  height:4rem;
+  width:7rem;
+  font-size:1rem;
+  border-radius: 20px;
+  }
+}
