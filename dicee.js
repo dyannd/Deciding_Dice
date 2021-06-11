@@ -34,22 +34,22 @@ function Generator() {
   document.querySelector("#holder2").removeChild(remove2);
   //Toglling the display
   toggler(dot_value1, dot_value2);
-//  printer(p1dice, p2dice);
+  printer(p1dice, p2dice);
 
 }
 
-// function printer(p1dice, p2dice) {
-//   //Compare the scores
-//   if (p1dice > p2dice) {
-//     document.getElementsByTagName("h2")[0].innerText = "P1 Wins";
-//   } else if (p1dice < p2dice) {
-//
-//     document.getElementsByTagName("h2")[0].innerText = "P2 Wins";
-//   } else {
-//     document.getElementsByTagName("h2")[0].innerText = "Draw";
-//   }
-//
-// }
+function printer(p1dice, p2dice) {
+  //Compare the scores
+  if (p1dice > p2dice) {
+    document.getElementsByTagName("h2")[0].innerText = "P1 Wins";
+  } else if (p1dice < p2dice) {
+
+    document.getElementsByTagName("h2")[0].innerText = "P2 Wins";
+  } else {
+    document.getElementsByTagName("h2")[0].innerText = "Draw";
+  }
+
+}
 
 function toggler(dot_value1, dot_value2) {
   //Create new Child Elements:
